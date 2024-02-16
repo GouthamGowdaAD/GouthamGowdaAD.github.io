@@ -4,23 +4,32 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
-/* Style the header */
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Style the navigation menu */
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+/* Navigation styles */
 nav {
-    background-color: #444;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 10px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
 }
 
 nav ul li {
@@ -33,41 +42,36 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Style the main content sections */
+/* Main content styles */
 main {
     padding: 20px;
 }
 
-/* Style the sections */
+/* Section styles */
 section {
     margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
 }
 
-/* Style the headings */
-h2 {
+/* Heading styles */
+h1, h2, h3 {
     color: #333;
     margin-bottom: 10px;
 }
 
-h3 {
-    color: #666;
-    margin-bottom: 5px;
-}
-
-/* Style the paragraphs */
+/* Paragraph styles */
 p {
-    color: #666;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
-/* Style the footer */
+/* Footer styles */
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
     color: #fff;
-    text-align: center;
     padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
 }
