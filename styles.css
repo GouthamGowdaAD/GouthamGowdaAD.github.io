@@ -6,7 +6,9 @@ body, h1, h2, h3, p {
 
 /* Global styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Aesthetic font */
+    font-size: 16px;
+    line-height: 1.6;
     background-color: #f5f5f5;
     color: #333;
 }
@@ -61,12 +63,12 @@ section {
 
 section h2 {
     color: #3498db; /* Blue section heading */
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increase spacing below section heading */
 }
 
 /* Paragraph styles */
 p {
-    line-height: 1.6;
+    margin-bottom: 15px; /* Increase spacing between paragraphs */
 }
 
 /* Footer styles */
