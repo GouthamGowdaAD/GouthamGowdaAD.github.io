@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #3498db; /* Blue header background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -25,7 +25,7 @@ header h1 {
 
 /* Navigation styles */
 nav {
-    background-color: #444;
+    background-color: #2980b9; /* Darker blue navigation background */
     padding: 10px 0;
     text-align: center;
 }
@@ -60,7 +60,7 @@ section {
 }
 
 section h2 {
-    color: #333;
+    color: #3498db; /* Blue section heading */
     margin-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ p {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #3498db; /* Blue footer background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
